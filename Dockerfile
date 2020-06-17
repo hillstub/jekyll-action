@@ -8,7 +8,7 @@ LABEL maintainer="Alain Hélaïli <helaili@github.com>"
 RUN apk add --no-cache git build-base
 # Allow for timezone setting in _config.yml
 RUN apk add --update tzdata
-RUN apk add --update nodejs npm
+#RUN apk add --update nodejs npm
 
 # debug
 RUN bundle version
